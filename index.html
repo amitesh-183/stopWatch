@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Stop Watch</title>
+  </head>
+  <body>
+    <header>
+      <h1 class="header">Stop Watch</h1>
+    </header>
+
+    <main>
+      <p class="flex1">
+        <span id="seconds">00</span> :
+        <span id="milliseconds">00</span>
+      </p>
+    </main>
+    <section class="flex">
+      <div class="btn" onclick="stopWatch()" id="start">Start</div>
+      <div class="btn" onclick="stop()" id="stop">Stop</div>
+      <div class="btn" onclick="reset()" id="reset">Reset</div>
+    </section>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
